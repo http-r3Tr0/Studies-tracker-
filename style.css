@@ -1,9 +1,16 @@
 body {
-    background-color: aqua;
+    background-color: #0D060F;
+    color: #766B65;
+    font-family: Arial, Helvetica, sans-serif;
 }
 span {
     margin-left: 5px
 }
+
+
+/* Fontes */
+@import url('https://fonts.googleapis.com/css2?family=Libertinus+Sans:ital,wght@0,400;0,700;1,400&display=swap');
+
 .libertinus-sans-regular {
   font-family: "Libertinus Sans", sans-serif;
   font-weight: 400;
