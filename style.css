@@ -1,30 +1,50 @@
 body {
     background-color: #0D060F;
     color: #766B65;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Libertinus';
 }
 span {
     margin-left: 5px
 }
+h3 {
+    padding: 0px;
+}
+
+#ab {
+    border: 2px solid grey;
+    height: 100px;
+    width: 900px;
+    float: left;
+    padding: 5px;
+
+} 
+#relogio {
+    text-align: center;
+    font-size: 50px;
+    color: #5D3C18;
+}
+.clear {
+    clear: both;
+}
+
+
+
+#revisao {
+    border: 5px solid grey;
+    border-radius: 5px;
+    width: 250px;
+    height: 250px;
+    float: right;
+    margin-right: 30px;
+    padding: 10px;
+}
+
+
 
 
 /* Fontes */
-@import url('https://fonts.googleapis.com/css2?family=Libertinus+Sans:ital,wght@0,400;0,700;1,400&display=swap');
-
-.libertinus-sans-regular {
-  font-family: "Libertinus Sans", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+@font-face {
+    font-family: "Libertinus";
+    src: url(./Font/LibertinusSans-Regular.ttf) format('truetype');
 }
 
-.libertinus-sans-bold {
-  font-family: "Libertinus Sans", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-}
-
-.libertinus-sans-regular-italic {
-  font-family: "Libertinus Sans", sans-serif;
-  font-weight: 400;
-  font-style: italic;
-}

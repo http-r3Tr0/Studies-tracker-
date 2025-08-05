@@ -7,14 +7,31 @@
     <title>Rastreador</title>
 </head>
 <body class="libertinus-sans-regular">
-    <Div id="navegação">
+    <div id="navegação">
     <span><a href="">Home</a></span>
     <span> <a href="Acompanhamento.html">Acompanhamento</a></span>
     <!-- circle, square, disc-->
-    </Div>
-   <h1>Rastreador</h1>
-        <h2 id="relogio">Aqui vem o relogio</h2>
+    </div>
+    <h1>Rastreador</h1>
+<div id="ab" class="clear">
+        <h2 id="relogio">00:00:00</h2>
     <div id="Grafico">
     </div>
+    <!-- adicionar uma opção para adicionar uma matéria nova -->
+    Matéria:
+    <select name="materias" id="">
+        <option value="default"></option>
+        <option value="Java">Java</option>
+        <option value="C++">C++</option>
+        <option value="C#">C#</option>
+    </select>
+</div>
+    <div id="revisao">
+        <h3>Aqui vai vir a lista de revisão</h3>
+        <input type="checkbox" name="Java" id=""> Java <br>
+        <input type="checkbox" name="C++" id=""> C++ <br>
+        <input type="checkbox" name="C#" id=""> C#
+    </div>
+        
 </body>
 </html>
