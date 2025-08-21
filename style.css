@@ -39,7 +39,20 @@ h3 {
     padding: 10px;
 }
 
+a {
+    text-decoration: none;
+}
+a:link {
+    color: #766B65;
+}
 
+a:visited{
+    color: aqua;
+}
+
+a:hover {
+    color: #5D3C18;
+}
 
 
 /* Fontes */
