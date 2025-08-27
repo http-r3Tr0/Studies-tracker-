@@ -1,7 +1,16 @@
-let hora = 0; 
-let minutos = 0; 
-let segundos = 0; 
-let mili = 0; 
+let contador = 0;
+const salvar = document.getElementById('salvar')
+const relogio = document.getElementById('relogio')
 
-let cron = 0; 
+const iniciar = document.getElementById('Iniciar')
 
+iniciar.onclick = function() {
+    contador++
+    relogio.textContent = contador;
+}
+
+salvar.onclick = function(){
+
+    contador = 0;
+    relogio.textContent = contador;
+}

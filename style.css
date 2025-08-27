@@ -10,6 +10,14 @@ h3 {
     padding: 0px;
 }
 
+#crono {
+    border: 5px solid grey;
+    display: block;
+    text-align: center;
+    font-size: 10em;
+}
+
+
 #ab {
     border: 2px solid grey;
     height: 100px;
@@ -18,11 +26,11 @@ h3 {
     padding: 5px;
 
 } 
-#relogio {
+/* #relogio {
     text-align: center;
     font-size: 50px;
     color: #5D3C18;
-}
+} */
 .clear {
     clear: both;
 }
