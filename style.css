@@ -16,7 +16,10 @@ h3 {
     text-align: center;
     font-size: 10em;
 }
-
+#botoes {
+    display: block;
+    text-align: center;;
+}
 
 #ab {
     border: 2px solid grey;
@@ -31,11 +34,21 @@ h3 {
     font-size: 50px;
     color: #5D3C18;
 } */
-.clear {
-    clear: both;
+
+
+.botao {
+    padding: 5px;
+    background-color: #0D060F;
+    color: #aa9e98;
+    margin: 2px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: backgroun-color 0.25s;
 }
 
-
+.botao:hover {
+    background-color: #25132b;
+}
 
 #revisao {
     border: 5px solid grey;
